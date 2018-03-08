@@ -32,3 +32,14 @@ class GFG {
 		System.out.println(m[n][maxw]);
 	}
 }
+
+/*
+input-
+3
+10 60
+20 100
+30 120
+50
+output-
+220
+*/
