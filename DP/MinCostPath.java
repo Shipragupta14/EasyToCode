@@ -17,7 +17,7 @@ class GFG {
         
         int x=sc.nextInt();
         int y=sc.nextInt();
-        System.out.println(mincost(m,x,y));
+        System.out.println(mincost(m,x,y));	
 	}
 	public static int mincost(int [][]m, int x, int y){
 	    int [][]t=new int [x+1][y+1];
@@ -45,4 +45,5 @@ input-
 2 2
 output-
 8
+TC-O(xy)
 */

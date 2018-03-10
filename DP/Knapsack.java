@@ -42,4 +42,5 @@ input-
 50
 output-
 220
+TC-O(nw) where n is the no. of items and wis weight of items
 */
