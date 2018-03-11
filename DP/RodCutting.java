@@ -1,6 +1,5 @@
 /*package whatever //do not write package name here */
 
-//what is the max profit a person can earn in a week according to the given stock prices
 import java.io.*;
 import java.util.*;
 import java.lang.*;
