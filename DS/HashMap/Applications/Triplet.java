@@ -11,12 +11,12 @@ class GFG {
 		for(int i=0;i<n;i++){
 		    int x=sc.nextInt();
 		    a[i]=x;
-		    map.put(i,x);
+		    map.put(x, i);
 		}
 		for(int i=0;i<n-1;i++){
 		    for(int j=i+1;j<n;j++){
 		        int y=(a[i]*a[i])+(a[j]*a[j]);
-		        if(map.containsValue(y)){
+		        if(map.containsKey(y)){
 		            System.out.println(a[i]+" "+a[j]+" "+y);
 		        }
 		    }
